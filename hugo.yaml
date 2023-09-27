@@ -40,7 +40,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" # dark "light"
 
   font:
     fontSize: 1rem # default: 1rem
@@ -49,13 +49,13 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  color:
+    # textColor:
+    # secondaryTextColor:
+    # backgroundColor:
+    # secondaryBackgroundColor:
+    primaryColor: "#003d00"
+    # secondaryColor:
 
   #   darkmode:
   #     textColor:
@@ -95,7 +95,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/resume.pdf"
+      url: "resume_latest.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -104,6 +104,8 @@ params:
           url: https://github.com/alinsimion
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/alin-ciprian-simion-1148b1185/
+        - icon: fab fa-google
+          url: https://scholar.google.com/citations?user=jjnysMEAAAAJ&hl=en&authuser=1
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
@@ -122,8 +124,8 @@ params:
       
       Over the past year, I've undertaken the responsibilities of a Software Engineer Team Leader, showcasing my ability to navigate complex challenges while fostering a collaborative and high-achieving work environment. 
       
-      Simultaneously, I have shown a deep commitment to education by serving as an esteemed university educator, imparting knowledge and expertise to budding enthusiasts in the field. 
-      Currently pursuing a Ph.D., I continue to fuel my passion for continuous learning and cutting-edge research, poised to make substantial contributions to both academia and industry
+      Simultaneously, I have shown a deep commitment to education by serving as university collaborator, imparting knowledge and expertise to budding enthusiasts in the field. 
+      Currently pursuing a Ph.D., I continue to fuel my passion for continuous learning and cutting-edge research, poised to make substantial contributions to both academia and industry.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -137,7 +139,7 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Work Experience"
     companies:
       - company: "Bitdefender"
         date: "August 2022 - present"
@@ -156,7 +158,7 @@ params:
         - job: "Technical Lead"
           company: "Bitdefender"
           companyUrl: "https://bitdefender.com"
-          date: "August 2019 - August 2022"
+          date: "Sep 2019 - August 2022"
           content: | 
             - Conducted day-to-day project coordination, planning, and implementation for a team of 3 members
             - Inter team collaboration for new features, feature modification orbug reporting
@@ -164,11 +166,20 @@ params:
         - job: "Software Engineer"
           company: "Bitdefender"
           companyUrl: "https://bitdefender.com"
-          date: "August 2016 - August 2019"
+          date: "May 2016 - Sep 2019"
           content: | 
             - Designed, configured and developed a system for validating the anti-malware module integrated in products
             - Systems's verdict impacts global update of products
             - Python, VMWare, MongoDB, Routing, NAT, DHCP, DNS, Unix
+          
+        - job: "QA Engineer"
+          company: "Bitdefender"
+          companyUrl: "https://bitdefender.com"
+          date: "August 2014 - May 2016"
+          content: | 
+            - Test owner of relay and update modules of the product
+            - Manually tested bug fixing and new feature development
+            - Writen test cases as well as automatic tests
       
       - company: "University Alexandru Ioan Cuza Iasi"
         date: "Oct 2014 - present"
@@ -191,7 +202,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Doctor of Philosophy - PhD, Generative Machine Learning"
+      - title: "Doctor of Philosophy - Ph.D, Generative Machine Learning"
         school:
           name: "University \"Alexandru Ioan Cuza\", Iasi"
           url: "https://www.linkedin.com/school/universitatea-%E2%80%9Ealexandru-ioan-cuza%E2%80%9D-din-ia%C8%99i/mycompany/"
@@ -243,7 +254,7 @@ params:
     title: "Personal Projects"
     items:
       - title: Kitchinet UI 
-        content: A recipe app. Features include Meal Planner, Shopping List, Recipe Search, Recipe Details and more.
+        content: Kitchinet is a recipe management platform offering features for efficient meal planning, ingredient tracking, and recipe exploration. Its core functionalities include a meal planner, a dynamic shopping list generator, and an extensive recipe search engine. Kitchinet empowers users with a practical and data-driven approach to culinary organization and exploration
         image: /images/kitchinet.png
         featured:
           name: Demo
@@ -272,6 +283,36 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/alinsimion/kitchinet_api
+
+      - title: HealTwo UI 
+        content: I've created a dynamic platform tailored to mental health specialists, equipping them with essential tools for streamlined client management. The platform includes features such as an intuitive appointment calendar, secure client notes and data management, and the ability to assign personalized therapeutic exercises.
+        image: /images/healtwo.png
+        featured:
+          name: Demo
+          link: https://heal-two.netlify.app/
+        badges:
+          - "Flutter"
+          - "Dart"
+          - "GraphQL"
+          - "Fireabase Auth"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alinsimion/happymind_app
+      
+      - title: HealTwo API
+        content: The API behind the HealTwo UI.
+        image: /images/healtwo.png
+        featured:
+          name: Demo
+          link: https://heal-two.netlify.app/
+        badges:
+          - "Flutter"
+          - "Dart"
+          - "GraphQL"
+          - "Fireabase Auth"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alinsimion/happymind_api
 
       # - title: Image Converter
       #   content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
