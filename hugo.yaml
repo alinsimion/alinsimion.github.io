@@ -284,7 +284,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/alinsimion/kitchinet_api
 
-      - title: HealTwo UI 
+      - title: HealTwo UI - Therapist
         content: I've created a dynamic platform tailored to mental health specialists, equipping them with essential tools for streamlined client management. The platform includes features such as an intuitive appointment calendar, secure client notes and data management, and the ability to assign personalized therapeutic exercises.
         image: /images/healtwo.png
         featured:
@@ -298,6 +298,21 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/alinsimion/happymind_app
+
+      - title: HealTwo UI - Client
+        content: The client APP for the HealTwo platform.
+        image: /images/healtwo.png
+        featured:
+          name: Demo
+          link: https://heal-two-client.netlify.app/
+        badges:
+          - "Flutter"
+          - "Dart"
+          - "GraphQL"
+          - "Fireabase Auth"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alinsimion/healtwo_app2
       
       - title: HealTwo API
         content: The API behind the HealTwo UI.
@@ -306,10 +321,11 @@ params:
           name: Demo
           link: https://heal-two.netlify.app/
         badges:
-          - "Flutter"
-          - "Dart"
+          - "Python"
+          - "Flask"
+          - "MongoDB"
           - "GraphQL"
-          - "Fireabase Auth"
+          - "ORM"
         links:
           - icon: fab fa-github
             url: https://github.com/alinsimion/happymind_api
