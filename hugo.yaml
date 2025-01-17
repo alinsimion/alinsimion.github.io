@@ -116,7 +116,7 @@ params:
     title: "About Me"
     image: "/images/poza_cu_mine.png"
     content: |-
-      I am a seasoned professional with over 9 years of experience in the industry, showcasing a diverse and dynamic background. 
+      I am a seasoned professional with over 10 years of experience in the industry, showcasing a diverse and dynamic background. 
       
       I began as a Software Engineer, and over the years, I've rapidly progressed, demonstrating adaptability and expertise across various roles. 
       
@@ -125,13 +125,19 @@ params:
       Over the past year, I've undertaken the responsibilities of a Software Engineer Team Leader, showcasing my ability to navigate complex challenges while fostering a collaborative and high-achieving work environment. 
       
       Simultaneously, I have shown a deep commitment to education by serving as university collaborator, imparting knowledge and expertise to budding enthusiasts in the field. 
-      Currently pursuing a Ph.D., I continue to fuel my passion for continuous learning and cutting-edge research, poised to make substantial contributions to both academia and industry.
+      Even after finishing my Ph.D., I continue to fuel my passion for continuous learning and cutting-edge research, poised to make substantial contributions to both academia and industry.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
+        - "Golang"
         - "Python"
+        - "SQL"
         - "MongoDB"
+        - "HTMX"
+        - "Templ"
+        - "Docker"
+        - "Kubernetes"
         - "Flutter/Dart"
         - "GraphQL"
         - "Nginx"
@@ -184,11 +190,18 @@ params:
       - company: "University Alexandru Ioan Cuza Iasi"
         date: "Oct 2014 - present"
         items:
-        - job: "University Collaborator"
-          
+        - job: "Teaching Assistant"
           company: "University Alexandru Ioan Cuza Iasi"
-          # companyUrl: "https://linkedin.com/company/universitatea-%E2%80%9Ealexandru-ioan-cuza%E2%80%9D-din-ia%C8%99i/mycompany/"
-          date: "Oct 2014 - present"
+          date: "Oct 2024 - present"
+          info:
+            enable: true
+            content: I held seminaries for over 9 years
+          content: |
+            Serving as a Teaching Assistant at the university, I support students in mastering complex concepts by leading discussions, grading assignments, and providing one-on-one guidance. My role emphasizes fostering a collaborative learning environment and enhancing the educational experience.
+        
+        - job: "University Collaborator"
+          company: "University Alexandru Ioan Cuza Iasi"
+          date: "Oct 2014 - Oct 2024"
           info:
             enable: true
             content: I held seminaries for over 9 years
@@ -206,7 +219,7 @@ params:
         school:
           name: "University \"Alexandru Ioan Cuza\", Iasi"
           url: "https://www.linkedin.com/school/universitatea-%E2%80%9Ealexandru-ioan-cuza%E2%80%9D-din-ia%C8%99i/mycompany/"
-        date: "2017 - present"
+        date: "2017 - 2024"
         
       - title: "Master's Degree in Software Engineering"
         school:
@@ -330,32 +343,68 @@ params:
           - icon: fab fa-github
             url: https://github.com/alinsimion/happymind_api
 
-      # - title: Image Converter
-      #   content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-      #   image: /images/projects/converter.jpg
-      #   featured:
-      #     name: Demo
-      #     link: https://django-converter.herokuapp.com
-      #   badges:
-      #     - "Django"
-      #     - "Bootstrap"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/converter
+      - title: Expense Tracker 
+        content: Expense Tracker is a financial management platform designed to help users track their expenses, set budgets, and analyze spending patterns. The platform offers a user-friendly interface, detailed expense categorization, and insightful data visualization tools to empower users with a comprehensive overview of their financial health.
+        image: /images/etracker.png
+        featured:
+          name: Demo
+          link: https://zportofolio.dev/etracker/
+        badges:
+          - "Golang"
+          - "SQLite"
+          - "HTMX"
+          - "Templ"
+          - "TailwindCSS"
+          - "Supabase Auth"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alinsimion/expense_tracker
+      
+      - title: Kitchinet APP (Go) 
+        content: Expense Tracker is a financial management platform designed to help users track their expenses, set budgets, and analyze spending patterns. The platform offers a user-friendly interface, detailed expense categorization, and insightful data visualization tools to empower users with a comprehensive overview of their financial health.
+        image: /images/go-kitchinet.png
+        featured:
+          name: Demo
+          link: https://zportofolio.dev/kitchinet2/
+        badges:
+          - "Golang"
+          - "MongoDB"
+          - "HTMX"
+          - "Templ"
+          - "TailwindCSS"
+          - "Supabase Auth"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alinsimion/expense_tracker
+      
+      - title: Jira CLI
+        content: I created this CLI tool mostly because I was fed up with the Jira interface. I wanted to be able to quickly log work from te terminal for today, this week, this month. 
+        image: /images/terminal.png
+        featured:
+          name: Demo
+          link: https://github.com/alinsimion/jira-cli/blob/main/README.md
+        badges:
+          - "Golang"
+          - "Cobra"
+          - "Jira API"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alinsimion/jira-cli
 
-      # - title: Hugo Profile V2
-      #   content: A clean and simple Hugo template for personal portfolio and blog.
-      #   image: /images/projects/profile2.jpg
-      #   featured:
-      #     name: Demo V2
-      #     link: https://hugo-profile-2.netlify.app
-      #   badges:
-      #     - "Hugo"
-      #     - "Bootstrap"
-      #     - "Javascript"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/HugoProfileV2
+      - title: Baby Shower Party Invitation Site
+        content: I created this site for my baby shower party. It was a great way to invite people and keep them up to date with venue details, menu changes or dress code.
+        image: /images/babyshower.png
+        featured:
+          name: Demo
+          link: https://leona.zportofolio.dev/2
+        badges:
+          - "Golang"
+          - "Templ"
+          - "TailwindCSS"
+          
+        links:
+          - icon: fab fa-github
+            url: https://github.com/alinsimion/leona-party
 
   #Contact
   contact:
